@@ -21,6 +21,6 @@ app.once("ready", () => {
             });
         }
     })
-    cdp.sendCommand("Debugger.enable");
+    cd.sendCommand("Debugger.enable");
     window.webContents.loadURL("http://twitter.com");
 });
